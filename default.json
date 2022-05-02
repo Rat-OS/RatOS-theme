@@ -160,6 +160,40 @@
 						"showInPause": false
 					}
 				]
+			},
+			"900d9140-9b24-4c9e-a022-f75c68f287f2": {
+				"name": "Installation",
+				"color": "primary",
+				"colorCustom": "#fff",
+				"showInStandby": true,
+				"showInPause": true,
+				"showInPrinting": true,
+				"macros": [
+					{
+						"pos": 1,
+						"name": "INSTALL_VCORE_PRO_CONFIG",
+						"color": "group",
+						"showInStandby": true,
+						"showInPrinting": true,
+						"showInPause": true
+					},
+					{
+						"pos": 2,
+						"name": "INSTALL_VCORE_THREE_CONFIG",
+						"color": "group",
+						"showInStandby": true,
+						"showInPrinting": true,
+						"showInPause": true
+					},
+					{
+						"pos": 3,
+						"name": "INSTALL_VMINION_CONFIG",
+						"color": "group",
+						"showInStandby": true,
+						"showInPrinting": true,
+						"showInPause": true
+					}
+				]
 			}
 		}
 	},
