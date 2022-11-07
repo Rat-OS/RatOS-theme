@@ -158,6 +158,14 @@
 						"showInStandby": true,
 						"showInPrinting": false,
 						"showInPause": false
+					},
+					{
+						"pos": 4,
+						"name": "MEASURE_COREXY_BELT_TENSION",
+						"color": "group",
+						"showInStandby": true,
+						"showInPrinting": true,
+						"showInPause": true
 					}
 				]
 			},
@@ -188,6 +196,22 @@
 					{
 						"pos": 3,
 						"name": "INSTALL_VMINION_CONFIG",
+						"color": "group",
+						"showInStandby": true,
+						"showInPrinting": true,
+						"showInPause": true
+					},
+					{
+						"pos": 4,
+						"name": "INSTALL_VORON_V0",
+						"color": "group",
+						"showInStandby": true,
+						"showInPrinting": true,
+						"showInPause": true
+					},
+					{
+						"pos": 5,
+						"name": "INSTALL_VORON_V2",
 						"color": "group",
 						"showInStandby": true,
 						"showInPrinting": true,
