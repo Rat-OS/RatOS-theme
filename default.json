@@ -223,14 +223,6 @@
         "macros": [
           {
             "pos": 1,
-            "name": "INSTALL_VCORE_PRO_CONFIG",
-            "color": "group",
-            "showInStandby": true,
-            "showInPrinting": true,
-            "showInPause": true
-          },
-          {
-            "pos": 2,
             "name": "INSTALL_VCORE_THREE_CONFIG",
             "color": "group",
             "showInStandby": true,
@@ -238,8 +230,16 @@
             "showInPause": true
           },
           {
-            "pos": 3,
+            "pos": 2,
             "name": "INSTALL_VMINION_CONFIG",
+            "color": "group",
+            "showInStandby": true,
+            "showInPrinting": true,
+            "showInPause": true
+          },
+          {
+            "pos": 3,
+            "name": "INSTALL_VCORE_PRO_CONFIG",
             "color": "group",
             "showInStandby": true,
             "showInPrinting": true,
@@ -264,6 +264,14 @@
           {
             "pos": 6,
             "name": "INSTALL_PRUSA_MINI",
+            "color": "group",
+            "showInStandby": true,
+            "showInPrinting": true,
+            "showInPause": true
+          },
+          {
+            "pos": 7,
+            "name": "INSTALL_PRUSA_MK3S",
             "color": "group",
             "showInStandby": true,
             "showInPrinting": true,
