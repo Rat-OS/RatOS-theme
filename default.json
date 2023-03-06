@@ -271,7 +271,7 @@
           },
           {
             "pos": 7,
-            "name": "INSTALL_PRUSA_MK3S",
+            "name": "INSTALL_PRUSA_MK3",
             "color": "group",
             "showInStandby": true,
             "showInPrinting": true,
