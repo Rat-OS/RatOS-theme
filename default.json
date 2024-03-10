@@ -142,20 +142,20 @@
         "color": "warning",
         "colorCustom": "#fff",
         "showInStandby": true,
-        "showInPause": false,
-        "showInPrinting": false,
+        "showInPause": true,
+        "showInPrinting": true,
         "macros": [
           {
-            "pos": 1,
-            "name": "ECHO_RATOS_VARS",
+            "pos": 3,
+            "name": "ENABLE_DEBUG",
             "color": "group",
             "showInStandby": true,
             "showInPrinting": true,
             "showInPause": true
           },
           {
-            "pos": 2,
-            "name": "RatOS",
+            "pos": 3,
+            "name": "DISABLE_DEBUG",
             "color": "group",
             "showInStandby": true,
             "showInPrinting": true,
@@ -166,35 +166,19 @@
             "name": "SET_CENTER_KINEMATIC_POSITION",
             "color": "group",
             "showInStandby": true,
-            "showInPrinting": true,
-            "showInPause": true
+            "showInPrinting": false,
+            "showInPause": false
           }
         ]
       },
       "8339b81d-189d-462b-8ae6-3f12ee2f2adc": {
-        "name": "Scripts",
+        "name": "Input Shaping",
         "color": "primary",
         "colorCustom": "#fff",
         "showInStandby": true,
         "showInPause": false,
         "showInPrinting": false,
         "macros": [
-          {
-            "pos": 1,
-            "name": "CHANGE_HOSTNAME",
-            "color": "group",
-            "showInStandby": true,
-            "showInPrinting": false,
-            "showInPause": false
-          },
-          {
-            "pos": 2,
-            "name": "COMPILE_FIRMWARE",
-            "color": "group",
-            "showInStandby": true,
-            "showInPrinting": false,
-            "showInPause": false
-          },
           {
             "pos": 3,
             "name": "GENERATE_SHAPER_GRAPHS",
@@ -214,7 +198,7 @@
         ]
       },
       "900d9140-9b24-4c9e-a022-f75c68f287f2": {
-        "name": "Installation",
+        "name": "Utilities",
         "color": "primary",
         "colorCustom": "#fff",
         "showInStandby": true,
@@ -223,7 +207,7 @@
         "macros": [
           {
             "pos": 1,
-            "name": "INSTALL_VCORE_THREE_CONFIG",
+            "name": "ECHO_RATOS_VARS",
             "color": "group",
             "showInStandby": true,
             "showInPrinting": true,
@@ -231,47 +215,7 @@
           },
           {
             "pos": 2,
-            "name": "INSTALL_VMINION_CONFIG",
-            "color": "group",
-            "showInStandby": true,
-            "showInPrinting": true,
-            "showInPause": true
-          },
-          {
-            "pos": 3,
-            "name": "INSTALL_VCORE_PRO_CONFIG",
-            "color": "group",
-            "showInStandby": true,
-            "showInPrinting": true,
-            "showInPause": true
-          },
-          {
-            "pos": 4,
-            "name": "INSTALL_VORON_V0",
-            "color": "group",
-            "showInStandby": true,
-            "showInPrinting": true,
-            "showInPause": true
-          },
-          {
-            "pos": 5,
-            "name": "INSTALL_VORON_V2",
-            "color": "group",
-            "showInStandby": true,
-            "showInPrinting": true,
-            "showInPause": true
-          },
-          {
-            "pos": 6,
-            "name": "INSTALL_PRUSA_MINI",
-            "color": "group",
-            "showInStandby": true,
-            "showInPrinting": true,
-            "showInPause": true
-          },
-          {
-            "pos": 7,
-            "name": "INSTALL_PRUSA_MK3",
+            "name": "RatOS",
             "color": "group",
             "showInStandby": true,
             "showInPrinting": true,
