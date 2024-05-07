@@ -18,12 +18,16 @@
         "visible": true
       },
       {
-        "name": "macrogroup_8339b81d-189d-462b-8ae6-3f12ee2f2adc",
+        "name": "macrogroup_900d9140-9b24-4c9e-a022-f75c68f287f2",
         "visible": true
       },
       {
         "name": "macrogroup_301c19bd-632e-41d1-a8ea-3b131eccbfa0",
         "visible": true
+      },
+      {
+        "name": "macrogroup_e948fe60-88b9-4f8b-9ccd-c28fa357926b",
+        "visible": false
       },
       { "name": "miniconsole", "visible": true }
     ],
@@ -40,12 +44,16 @@
         "visible": true
       },
       {
+        "name": "macrogroup_900d9140-9b24-4c9e-a022-f75c68f287f2",
+        "visible": true
+      },
+      {
         "name": "macrogroup_301c19bd-632e-41d1-a8ea-3b131eccbfa0",
         "visible": true
       },
       {
-        "name": "macrogroup_8339b81d-189d-462b-8ae6-3f12ee2f2adc",
-        "visible": true
+        "name": "macrogroup_e948fe60-88b9-4f8b-9ccd-c28fa357926b",
+        "visible": false
       }
     ],
     "desktopLayout1": [
@@ -63,12 +71,16 @@
         "visible": true
       },
       {
-        "name": "macrogroup_8339b81d-189d-462b-8ae6-3f12ee2f2adc",
+        "name": "macrogroup_900d9140-9b24-4c9e-a022-f75c68f287f2",
         "visible": true
       },
       {
         "name": "macrogroup_301c19bd-632e-41d1-a8ea-3b131eccbfa0",
         "visible": true
+      },
+      {
+        "name": "macrogroup_e948fe60-88b9-4f8b-9ccd-c28fa357926b",
+        "visible": false
       }
     ],
     "tabletLayout1": [
@@ -91,12 +103,16 @@
         "visible": true
       },
       {
-        "name": "macrogroup_8339b81d-189d-462b-8ae6-3f12ee2f2adc",
+        "name": "macrogroup_900d9140-9b24-4c9e-a022-f75c68f287f2",
         "visible": true
       },
       {
         "name": "macrogroup_301c19bd-632e-41d1-a8ea-3b131eccbfa0",
         "visible": true
+      },
+      {
+        "name": "macrogroup_e948fe60-88b9-4f8b-9ccd-c28fa357926b",
+        "visible": false
       }
     ]
   },
@@ -105,48 +121,48 @@
     "macrogroups": {
       "5752c70d-d04e-4d3b-a775-c7536704806b": {
         "name": "Filament",
-        "color": "primary",
-        "colorCustom": "#fff",
+        "color": "custom",
+        "colorCustom": "#0ea5e9",
+        "showInStandby": true,
+        "showInPause": true,
+        "showInPrinting": true,
+        "macros": [
+					{
+						"pos": 1,
+						"name": "LOAD_FILAMENT",
+						"color": "group",
+						"showInStandby": true,
+						"showInPrinting": true,
+						"showInPause": true
+					},
+					{
+						"pos": 2,
+						"name": "UNLOAD_FILAMENT",
+						"color": "group",
+						"showInStandby": true,
+						"showInPrinting": true,
+						"showInPause": true
+					},
+					{
+						"pos": 4,
+						"name": "M600",
+						"color": "group",
+						"showInStandby": true,
+						"showInPrinting": true,
+						"showInPause": true
+					}
+        ]
+      },
+      "301c19bd-632e-41d1-a8ea-3b131eccbfa0": {
+        "name": "Debug",
+				"color": "custom",
+				"colorCustom": "#ef4444",
         "showInStandby": true,
         "showInPause": true,
         "showInPrinting": true,
         "macros": [
           {
             "pos": 1,
-            "name": "LOAD_FILAMENT",
-            "color": "group",
-            "showInStandby": true,
-            "showInPrinting": true,
-            "showInPause": true
-          },
-          {
-            "pos": 3,
-            "name": "M600",
-            "color": "group",
-            "showInStandby": true,
-            "showInPrinting": true,
-            "showInPause": true
-          },
-          {
-            "pos": 2,
-            "name": "UNLOAD_FILAMENT",
-            "color": "group",
-            "showInStandby": true,
-            "showInPrinting": true,
-            "showInPause": true
-          }
-        ]
-      },
-      "301c19bd-632e-41d1-a8ea-3b131eccbfa0": {
-        "name": "Debug",
-        "color": "warning",
-        "colorCustom": "#fff",
-        "showInStandby": true,
-        "showInPause": true,
-        "showInPrinting": true,
-        "macros": [
-          {
-            "pos": 3,
             "name": "ENABLE_DEBUG",
             "color": "group",
             "showInStandby": true,
@@ -154,7 +170,7 @@
             "showInPause": true
           },
           {
-            "pos": 3,
+            "pos": 2,
             "name": "DISABLE_DEBUG",
             "color": "group",
             "showInStandby": true,
@@ -171,58 +187,114 @@
           }
         ]
       },
-      "8339b81d-189d-462b-8ae6-3f12ee2f2adc": {
-        "name": "Input Shaping",
-        "color": "primary",
-        "colorCustom": "#fff",
+      "900d9140-9b24-4c9e-a022-f75c68f287f2": {
+        "name": "Calibration",
+        "color": "custom",
+        "colorCustom": "#a855f7",
         "showInStandby": true,
         "showInPause": false,
         "showInPrinting": false,
         "macros": [
-          {
-            "pos": 3,
-            "name": "GENERATE_SHAPER_GRAPHS",
-            "color": "group",
-            "showInStandby": true,
-            "showInPrinting": false,
-            "showInPause": false
-          },
-          {
-            "pos": 4,
-            "name": "MEASURE_COREXY_BELT_TENSION",
-            "color": "group",
-            "showInStandby": true,
-            "showInPrinting": true,
-            "showInPause": true
-          }
+					{
+						"pos": 1,
+						"name": "PID_CALIBRATE_HOTEND",
+						"color": "group",
+						"showInStandby": true,
+						"showInPrinting": true,
+						"showInPause": true
+					},
+					{
+						"pos": 2,
+						"name": "PID_CALIBRATE_BED",
+						"color": "group",
+						"showInStandby": true,
+						"showInPrinting": true,
+						"showInPause": true
+					},
+					{
+						"pos": 3,
+						"name": "MEASURE_COREXY_BELT_TENSION",
+						"color": "group",
+						"showInStandby": true,
+						"showInPrinting": true,
+						"showInPause": true
+					},
+					{
+						"pos": 4,
+						"name": "GENERATE_SHAPER_GRAPHS",
+						"color": "group",
+						"showInStandby": true,
+						"showInPrinting": false,
+						"showInPause": false
+					}
         ]
       },
-      "900d9140-9b24-4c9e-a022-f75c68f287f2": {
-        "name": "Utilities",
-        "color": "primary",
-        "colorCustom": "#fff",
-        "showInStandby": true,
-        "showInPause": false,
-        "showInPrinting": false,
-        "macros": [
-          {
-            "pos": 1,
-            "name": "ECHO_RATOS_VARS",
-            "color": "group",
-            "showInStandby": true,
-            "showInPrinting": true,
-            "showInPause": true
-          },
-          {
-            "pos": 2,
-            "name": "RatOS",
-            "color": "group",
-            "showInStandby": true,
-            "showInPrinting": true,
-            "showInPause": true
-          }
-        ]
-      }
+			"e948fe60-88b9-4f8b-9ccd-c28fa357926b": {
+				"name": "IDEX",
+				"color": "primary",
+				"colorCustom": "#fff",
+				"showInStandby": true,
+				"showInPause": true,
+				"showInPrinting": true,
+				"macros": [
+					{
+						"pos": 1,
+						"name": "IDEX_SINGLE",
+						"color": "group",
+						"showInStandby": true,
+						"showInPrinting": true,
+						"showInPause": true
+					},
+					{
+						"pos": 2,
+						"name": "IDEX_COPY",
+						"color": "group",
+						"showInStandby": true,
+						"showInPrinting": true,
+						"showInPause": true
+					},
+					{
+						"pos": 3,
+						"name": "IDEX_MIRROR",
+						"color": "group",
+						"showInStandby": true,
+						"showInPrinting": true,
+						"showInPause": true
+					},
+					{
+						"pos": 4,
+						"name": "IDEX_PARK",
+						"color": "group",
+						"showInStandby": true,
+						"showInPrinting": true,
+						"showInPause": true
+					},
+					{
+						"pos": 5,
+						"name": "JOIN_SPOOLS",
+						"color": "group",
+						"showInStandby": true,
+						"showInPrinting": true,
+						"showInPause": true
+					},
+					{
+						"pos": 6,
+						"name": "TOOLSHIFT_CONFIG",
+						"color": "group",
+						"showInStandby": true,
+						"showInPrinting": true,
+						"showInPause": true
+					},
+					{
+						"pos": 7,
+						"name": "REMAP_TOOLHEADS",
+						"color": "group",
+						"showInStandby": true,
+						"showInPrinting": true,
+						"showInPause": true
+					}
+				]
+			}
     }
   },
   "presets": {
