@@ -27,7 +27,7 @@
       },
       {
         "name": "macrogroup_e948fe60-88b9-4f8b-9ccd-c28fa357926b",
-        "visible": false
+        "visible": true
       },
       { "name": "miniconsole", "visible": true }
     ],
@@ -53,7 +53,7 @@
       },
       {
         "name": "macrogroup_e948fe60-88b9-4f8b-9ccd-c28fa357926b",
-        "visible": false
+        "visible": true
       }
     ],
     "desktopLayout1": [
@@ -80,7 +80,7 @@
       },
       {
         "name": "macrogroup_e948fe60-88b9-4f8b-9ccd-c28fa357926b",
-        "visible": false
+        "visible": true
       }
     ],
     "tabletLayout1": [
@@ -112,7 +112,7 @@
       },
       {
         "name": "macrogroup_e948fe60-88b9-4f8b-9ccd-c28fa357926b",
-        "visible": false
+        "visible": true
       }
     ]
   },
@@ -138,6 +138,14 @@
 					{
 						"pos": 2,
 						"name": "UNLOAD_FILAMENT",
+						"color": "group",
+						"showInStandby": true,
+						"showInPrinting": true,
+						"showInPause": true
+					},
+					{
+						"pos": 3,
+						"name": "JOIN_SPOOLS",
 						"color": "group",
 						"showInStandby": true,
 						"showInPrinting": true,
@@ -271,14 +279,6 @@
 					},
 					{
 						"pos": 5,
-						"name": "JOIN_SPOOLS",
-						"color": "group",
-						"showInStandby": true,
-						"showInPrinting": true,
-						"showInPause": true
-					},
-					{
-						"pos": 6,
 						"name": "TOOLSHIFT_CONFIG",
 						"color": "group",
 						"showInStandby": true,
@@ -286,7 +286,7 @@
 						"showInPause": true
 					},
 					{
-						"pos": 7,
+						"pos": 6,
 						"name": "REMAP_TOOLHEADS",
 						"color": "group",
 						"showInStandby": true,
