@@ -121,7 +121,7 @@
     "macrogroups": {
       "5752c70d-d04e-4d3b-a775-c7536704806b": {
         "name": "Filament",
-        "color": "custom",
+        "color": "primary",
         "colorCustom": "#0ea5e9",
         "showInStandby": true,
         "showInPause": true,
@@ -155,7 +155,7 @@
       },
       "301c19bd-632e-41d1-a8ea-3b131eccbfa0": {
         "name": "Debug",
-				"color": "custom",
+				"color": "warning",
 				"colorCustom": "#ef4444",
         "showInStandby": true,
         "showInPause": true,
@@ -190,7 +190,7 @@
       "900d9140-9b24-4c9e-a022-f75c68f287f2": {
         "name": "Calibration",
         "color": "custom",
-        "colorCustom": "#a855f7",
+        "colorCustom": "#0284c7",
         "showInStandby": true,
         "showInPause": false,
         "showInPrinting": false,
