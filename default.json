@@ -219,8 +219,16 @@
 						"showInPrinting": true,
 						"showInPause": true
 					},
-					{
+          {
 						"pos": 3,
+						"name": "INITIALIZE_PA_TUNING",
+						"color": "group",
+						"showInStandby": true,
+						"showInPrinting": true,
+						"showInPause": true
+          },
+					{
+						"pos": 4,
 						"name": "MEASURE_COREXY_BELT_TENSION",
 						"color": "group",
 						"showInStandby": true,
@@ -228,7 +236,7 @@
 						"showInPause": true
 					},
 					{
-						"pos": 4,
+						"pos": 5,
 						"name": "GENERATE_SHAPER_GRAPHS",
 						"color": "group",
 						"showInStandby": true,
