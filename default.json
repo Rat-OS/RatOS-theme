@@ -201,23 +201,23 @@
         "colorCustom": "#0284c7",
         "showInStandby": true,
         "showInPause": false,
-        "showInPrinting": false,
+        "showInPrinting": true,
         "macros": [
 					{
 						"pos": 1,
 						"name": "PID_CALIBRATE_HOTEND",
 						"color": "group",
 						"showInStandby": true,
-						"showInPrinting": true,
-						"showInPause": true
+						"showInPrinting": false,
+						"showInPause": false
 					},
 					{
 						"pos": 2,
 						"name": "PID_CALIBRATE_BED",
 						"color": "group",
 						"showInStandby": true,
-						"showInPrinting": true,
-						"showInPause": true
+						"showInPrinting": false,
+						"showInPause": false
 					},
           {
 						"pos": 3,
@@ -232,8 +232,8 @@
 						"name": "MEASURE_COREXY_BELT_TENSION",
 						"color": "group",
 						"showInStandby": true,
-						"showInPrinting": true,
-						"showInPause": true
+						"showInPrinting": false,
+						"showInPause": false
 					},
 					{
 						"pos": 5,
