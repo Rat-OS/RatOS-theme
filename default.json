@@ -18,6 +18,10 @@
         "visible": true
       },
       {
+        "name": "macrogroup_80a09b03-74ed-4256-a255-4075dfd7e92b",
+        "visible": false
+      },
+      {
         "name": "macrogroup_900d9140-9b24-4c9e-a022-f75c68f287f2",
         "visible": true
       },
@@ -42,6 +46,10 @@
       {
         "name": "macrogroup_5752c70d-d04e-4d3b-a775-c7536704806b",
         "visible": true
+      },
+      {
+        "name": "macrogroup_80a09b03-74ed-4256-a255-4075dfd7e92b",
+        "visible": false
       },
       {
         "name": "macrogroup_900d9140-9b24-4c9e-a022-f75c68f287f2",
@@ -69,6 +77,10 @@
       {
         "name": "macrogroup_5752c70d-d04e-4d3b-a775-c7536704806b",
         "visible": true
+      },
+      {
+        "name": "macrogroup_80a09b03-74ed-4256-a255-4075dfd7e92b",
+        "visible": false
       },
       {
         "name": "macrogroup_900d9140-9b24-4c9e-a022-f75c68f287f2",
@@ -103,6 +115,10 @@
         "visible": true
       },
       {
+        "name": "macrogroup_80a09b03-74ed-4256-a255-4075dfd7e92b",
+        "visible": false
+      },
+      {
         "name": "macrogroup_900d9140-9b24-4c9e-a022-f75c68f287f2",
         "visible": true
       },
@@ -119,6 +135,48 @@
   "macros": {
     "mode": "expert",
     "macrogroups": {
+			"80a09b03-74ed-4256-a255-4075dfd7e92b": {
+				"name": "Chamber",
+				"color": "custom",
+				"colorCustom": "#84cc16",
+				"showInStandby": false,
+				"showInPause": false,
+				"showInPrinting": false,
+				"macros": [
+					{
+						"pos": 1,
+						"name": "CHAMBER_FILTER_ON",
+						"color": "group",
+						"showInStandby": true,
+						"showInPrinting": true,
+						"showInPause": true
+					},
+					{
+						"pos": 2,
+						"name": "CHAMBER_FILTER_OFF",
+						"color": "group",
+						"showInStandby": true,
+						"showInPrinting": true,
+						"showInPause": true
+					},
+					{
+						"pos": 3,
+						"name": "CHAMBER_HEATER_ON",
+						"color": "group",
+						"showInStandby": true,
+						"showInPrinting": true,
+						"showInPause": true
+					},
+					{
+						"pos": 4,
+						"name": "CHAMBER_HEATER_ON",
+						"color": "group",
+						"showInStandby": true,
+						"showInPrinting": true,
+						"showInPause": true
+					}
+				]
+			},
       "5752c70d-d04e-4d3b-a775-c7536704806b": {
         "name": "Filament",
         "color": "primary",
@@ -219,30 +277,54 @@
 						"showInPrinting": false,
 						"showInPause": false
 					},
-          {
-						"pos": 3,
-						"name": "INITIALIZE_PA_TUNING",
-						"color": "group",
-						"showInStandby": true,
-						"showInPrinting": true,
-						"showInPause": true
-          },
 					{
-						"pos": 4,
-						"name": "MEASURE_COREXY_BELT_TENSION",
+						"pos": 3,
+						"name": "PID_CALIBRATE_CHAMBER_HEATER",
 						"color": "group",
 						"showInStandby": true,
 						"showInPrinting": false,
 						"showInPause": false
 					},
-					{
-						"pos": 5,
-						"name": "GENERATE_SHAPER_GRAPHS",
+          {
+            "pos": 4,
+            "name": "MEASURE_COREXY_BELT_TENSION",
+            "color": "group",
+            "showInStandby": true,
+            "showInPrinting": false,
+            "showInPause": false
+          },
+          {
+            "pos": 5,
+            "name": "GENERATE_SHAPER_GRAPHS",
+            "color": "group",
+            "showInStandby": true,
+            "showInPrinting": false,
+            "showInPause": false
+          },
+          {
+            "pos": 6,
+            "name": "BEACON_RATOS_CALIBRATE",
+            "color": "group",
+            "showInStandby": true,
+            "showInPrinting": false,
+            "showInPause": false
+          },
+          {
+            "pos": 7,
+            "name": "SAVE_Z_OFFSET",
+            "color": "group",
+            "showInStandby": true,
+            "showInPrinting": false,
+            "showInPause": false
+          },
+          {
+						"pos": 8,
+						"name": "INITIALIZE_PA_TUNING",
 						"color": "group",
 						"showInStandby": true,
-						"showInPrinting": false,
-						"showInPause": false
-					}
+						"showInPrinting": true,
+						"showInPause": true
+          }
         ]
       },
 			"e948fe60-88b9-4f8b-9ccd-c28fa357926b": {
