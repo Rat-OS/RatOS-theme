@@ -294,10 +294,18 @@
           },
           {
             "pos": 4,
+            "name": "COLD_PULL",
+            "color": "group",
+            "showInStandby": true,
+            "showInPrinting": false,
+            "showInPause": true
+          },
+          {
+            "pos": 5,
             "name": "M600",
             "color": "group",
             "showInStandby": true,
-            "showInPrinting": true,
+            "showInPrinting": false,
             "showInPause": true
           }
         ]
