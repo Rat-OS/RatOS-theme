@@ -402,14 +402,6 @@
           },
           {
             "pos": 7,
-            "name": "SAVE_Z_OFFSET",
-            "color": "group",
-            "showInStandby": true,
-            "showInPrinting": false,
-            "showInPause": false
-          },
-          {
-            "pos": 8,
             "name": "INITIALIZE_PA_TUNING",
             "color": "group",
             "showInStandby": true,
